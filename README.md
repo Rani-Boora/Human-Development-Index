@@ -84,7 +84,7 @@ The project demonstrates the complete lifecycle of a Machine Learning applicatio
 
 <p align="center">
 
-<img src="./8_Images/Architecture.png" width="100%">
+<img src="./08_Images/Architecture.png" width="100%">
 
 </p>
 
@@ -103,7 +103,7 @@ The architecture consists of:
 
 <p align="center">
 
-<img src="./8_Images/Workflow.png" width="100%">
+<img src="./08_Images/Workflow.png" width="100%">
 
 </p>
 
@@ -220,7 +220,7 @@ Human-Development-Index/
 
 <p align="center">
 
-<img src="./8_Images/ER_Diagram.png" width="100%">
+<img src="./08_Images/ER_Diagram.png" width="100%">
 
 </p>
 
@@ -243,7 +243,7 @@ The system consists of the following core entities:
 
 <p align="center">
 
-<img src="./8_Images/Home.png" width="90%">
+<img src="./08_Images/Home.png" width="90%">
 
 </p>
 
@@ -253,8 +253,8 @@ The system consists of the following core entities:
 
 <p align="center">
 
-<img src="./8_Images/Prediction1.png" width="48%">
-<img src="./8_Images/Prediction2.png" width="48%">
+<img src="./08_Images/Prediction1.png" width="48%">
+<img src="./08_Images/Prediction2.png" width="48%">
 
 </p>
 
@@ -264,8 +264,8 @@ The system consists of the following core entities:
 
 <p align="center">
 
-<img src="./8_Images/Result1.png" width="48%">
-<img src="./8_Images/Result2.png" width="48%">
+<img src="./08_Images/Result1.png" width="48%">
+<img src="./08_Images/Result2.png" width="48%">
 
 </p>
 

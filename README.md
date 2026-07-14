@@ -350,8 +350,6 @@ http://127.0.0.1:5000
 
 ---
 
-# 📄 License
-
 ## 📄 Disclaimer
 
 This project was developed as part of an academic learning initiative for educational purposes. It demonstrates the application of Machine Learning and Flask in predicting the Human Development Index (HDI). The project is intended for learning, experimentation, and portfolio presentation.

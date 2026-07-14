@@ -84,7 +84,7 @@ The project demonstrates the complete lifecycle of a Machine Learning applicatio
 
 <p align="center">
 
-<img src="./8.Docs/Architecture.png" width="100%">
+<img src="./8_Images/Architecture.png" width="100%">
 
 </p>
 
@@ -103,7 +103,7 @@ The architecture consists of:
 
 <p align="center">
 
-<img src="./8.Docs/Workflow.png" width="100%">
+<img src="./8_Images/Workflow.png" width="100%">
 
 </p>
 
@@ -174,27 +174,44 @@ The model is trained using an HDI dataset containing:
 
 ```text
 Human-Development-Index/
-
-├── Dataset/
-├── Flask/
+│
+├── data/
+│   └── hdi_dataset.csv
+│
+├── models/
+│   └── hdi_model.pkl
+│
+├── app/
 │   ├── app.py
-│   ├── HDI.pkl
-│   ├── templates/
-│   └── requirements.txt
+│   ├── requirements.txt
+│   ├── Procfile
+│   └── templates/
+│       ├── index.html
+│       ├── home.html
+│       └── result.html
 │
-├── Training/
+├── notebooks/
+│   └── hdi-analysis.ipynb
 │
-├── 8.Docs/
-│   ├── Architecture.png
-│   ├── Workflow.png
-│   ├── ER_Diagram.png
-│   ├── Home.png
-│   ├── Prediction1.png
-│   ├── Prediction2.png
-│   ├── Result1.png
-│   └── Result2.png
+├── docs/
+│   ├── architecture.png
+│   ├── workflow.png
+│   ├── er-diagram.png
+│   ├── home-page.png
+│   ├── prediction-page.png
+│   └── prediction-result.png
 │
-└── README.md
+├── 01_Ideation_Phase/
+├── 02_Requirement_Analysis/
+├── 03_Project_Design/
+├── 04_Project_Planning/
+├── 05_Project_Development/
+├── 06_Project_Performance_Testing/
+├── 07_Project_Documentation/
+│
+├── README.md
+├── requirements.txt
+└── .gitignore
 ```
 
 ---
@@ -203,7 +220,7 @@ Human-Development-Index/
 
 <p align="center">
 
-<img src="./8.Docs/ER_Diagram.png" width="100%">
+<img src="./8_Images/ER_Diagram.png" width="100%">
 
 </p>
 
@@ -226,7 +243,7 @@ The system consists of the following core entities:
 
 <p align="center">
 
-<img src="./8.Docs/Home.png" width="90%">
+<img src="./8_Images/Home.png" width="90%">
 
 </p>
 
@@ -236,8 +253,8 @@ The system consists of the following core entities:
 
 <p align="center">
 
-<img src="./8.Docs/Prediction1.png" width="48%">
-<img src="./8.Docs/Prediction2.png" width="48%">
+<img src="./8_Images/Prediction1.png" width="48%">
+<img src="./8_Images/Prediction2.png" width="48%">
 
 </p>
 
@@ -247,8 +264,8 @@ The system consists of the following core entities:
 
 <p align="center">
 
-<img src="./8.Docs/Result1.png" width="48%">
-<img src="./8.Docs/Result2.png" width="48%">
+<img src="./8_Images/Result1.png" width="48%">
+<img src="./8_Images/Result2.png" width="48%">
 
 </p>
 
@@ -329,10 +346,7 @@ http://127.0.0.1:5000
 |------|------|
 | **Rani Boora** | Flask Development, Integration, Testing |
 | **Lakshmi Boora** | Machine Learning, Data Analysis |
-| Badiginchala Hazi Divya | Team Member |
-| Chandra Bharath | Team Member |
-| Udayteja Gorli | Team Member |
-| Guttula Viswa Vanitha | Team Member |
+
 
 ---
 
